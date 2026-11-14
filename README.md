@@ -202,4 +202,8 @@ If you use this repository or build upon this research, please cite the associat
 **Note:** This repository is intended for academic research and experimentation. The proposed framework is a research investigation and is not intended for direct clinical diagnosis or deployment.
 ```
 
-The README above reflects the title and findings in your latest manuscript. <FileCite ref_id="turn58file0" />
+## Research Figures and Visual Documentation
+
+A PowerPoint presentation containing the research framework, experimental architecture, methodology diagrams and supporting figures is available in the main repository.
+
+The presentation provides a consolidated visual overview of the proposed framework and experimental workflow.
