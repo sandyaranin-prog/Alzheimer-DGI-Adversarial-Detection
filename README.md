@@ -202,30 +202,4 @@ If you use this repository or build upon this research, please cite the associat
 **Note:** This repository is intended for academic research and experimentation. The proposed framework is a research investigation and is not intended for direct clinical diagnosis or deployment.
 ```
 
-## 2. A few changes I recommend before committing
-
-Looking at your screenshots, I noticed some duplicate or version-specific notebook names. I would not delete them now. Instead, make these small improvements:
-
-| Current notebook naming | Suggested improvement |
-|---|---|
-| `Stage8A_Embedding_Centroid_Diagnostic (1)` | `Stage8A_Embedding_Centroid_Diagnostic` |
-| `Stage12C_Final_TrainOnly_Paired_Evaluation (1)` | `Stage12C_Final_TrainOnly_Paired_Evaluation` |
-| `Stage8_DGI_GCN_Adversarial_Detection` | Retain as the original experimental version |
-| `Stage8_Corrected_DGI_GCN_Adversarial_Detection` | Retain as the corrected version |
-| `Stage12_Corrected_Unsupervised_DGI_GCN...` | Retain as a corrected experimental version |
-
-Do not overwrite one experimental notebook with another. We want to preserve the research history.
-
-## 3. One important point about your repository
-
-<badge color="success">Recommended</badge> Keep the repository public if you intend to share the code with reviewers and researchers, provided it contains no private information or restricted dataset files.
-
-Your repository is:
-
-<Link url="https://github.com/sandyaranin-prog/Alzheimer-DGI-Adversarial-Detection" title="Alzheimer-DGI-Adversarial-Detection on GitHub"/>
-
-I would also recommend adding a `LICENSE` file and a `requirements.txt` file before the final release. The dataset's CC BY 4.0 licence does not automatically determine the licence for your own code.
-
-**One final research recommendation:** Your Stage 12C notebook is particularly important because it documents the train-only paired evaluation. We should identify the exact notebook or notebooks that generated the final manuscript tables and figures, and clearly mark those as the final reproducibility workflow. That will make your repository much stronger for peer review.
-
 The README above reflects the title and findings in your latest manuscript. <FileCite ref_id="turn58file0" />
